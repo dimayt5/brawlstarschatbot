@@ -2,5 +2,4 @@ discord.py
 asyncio
 random2
 aiohttp
-time
 requests
