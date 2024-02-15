@@ -10,7 +10,7 @@ import requests
 from discord.ext import commands
 
 # конфиг
-token = "OTg1NzcwODc4OTEyNTYxMTkz.G5irK1.reu1NhLPOuwxVNrvi0LlaAYFa0l7brzObPTkWk" # токен бота на всякие случаи ставим в token.txt
+token = "" # токен бота на всякие случаи ставим в token.txt
 bot = commands.Bot(command_prefix='') # для чат ботов ненужен префикс если он будет без команд если хотите с командами ищите как сделать команды в боте я делал чат бота команды ненужны мне для него
 bot.remove_command('help') # убрать перво-начальный хелп
 
